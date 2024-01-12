@@ -40,3 +40,9 @@ Passar parametros de um componente pai para um componente filho.
 --------- OBSERVAÇÃO -------------
 
 Podemos reaproveitar o componente e usar mais de um parâmetro apenas adicionando o parâmetro no componente pai.
+
+Podemos adicionar valores dinâmicos ao componete apenas tirando o [] da propriedade. Ex: 
+
+<new-button label = "Valor Dinâmico"></new-button>
+
+Ainda assim precisamos declarar o parâmetro no componente.
