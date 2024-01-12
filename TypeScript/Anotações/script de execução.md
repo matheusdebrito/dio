@@ -20,3 +20,6 @@ Ex:
 }
 
 para rodar usar o comando npm run start
+
+
+PODE SER SUBSTITUIDO PELO PROCEDIMENTO TS NODE DEV
