@@ -1,8 +1,26 @@
-function apiVersion(version: string, name: string){
+Ir no arquivo tsconfig.json e e habilitar a opção experimentalDecorators
+
+--------------- Class Decorator ---------------
+
+Para decorar uma função podemos usar o @. Ex:
+
+function apiVersion(version: string){
     return (target: any) => {
-        Object.assign(target.prototype, {__version: version, __name: name})
+        Object.assign(target.prototype, {__version: version})
     }
 }
+
+@apiVersion("1.10")
+class Api{}
+
+const api = new Api();
+console.log(api.__version)
+
+---------------------------------------------
+
+--------------- Attribute Decorator ---------------
+
+Atribui à uma função a class minLength que verificar se o nome da classe é maior que 3.
 
 function minLength(length: number){
     return(target: any, key: string) =>{
