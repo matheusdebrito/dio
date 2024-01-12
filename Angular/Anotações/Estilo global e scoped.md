@@ -1,0 +1,1 @@
+Ao adicionar estilos no arquivo styles.css o estilo é aplicado de forma global, porém, o estilo aplicado no escopo do componente sempre vai ter prioridade.
