@@ -8,4 +8,9 @@ import { Component, Input } from '@angular/core';
 export class ButtonComponent {
   @Input() label: string = "";
 
+
+  getAlert(){
+    console.log(this.label)
+    console.log("teste")
+  }
 }
