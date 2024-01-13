@@ -46,3 +46,16 @@ Podemos adicionar valores dinâmicos ao componete apenas tirando o [] da proprie
 <new-button label = "Valor Dinâmico"></new-button>
 
 Ainda assim precisamos declarar o parâmetro no componente.
+
+Também podemos atribuir valor para um componente passando o valor entre aspas simples. Ex:
+
+<new-button [label] = "'teste'"></new-button>
+
+---------------
+
+Utilizando 
+
+<new-button label = "Valor Dinâmico"></new-button> ou
+<new-button [label] = "'teste'"></new-button>
+
+não é necessário declarar o valores no componente pai. apenas declaramos no própio componente com @Input
