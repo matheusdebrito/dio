@@ -89,3 +89,36 @@ export class AtributosComponent {
 
 
 -------------------------------------------------
+
+-----------------------NgTemplate--------------------------
+- Bloco de código que por padrão vem desativado. Pode ser ativado com ngIf="true". Ex:
+
+<ng-template [ngIf]="true">
+  <p>ngtemplate</p>
+</ng-template>
+
+
+-----------------------------------------------------------
+
+----------------------NgContent---------------------------
+- Cria um elemento para ser usado pelo componente pai dentro do componente filho.
+
+- ao criar <ng-content selector="tag"></ng-content> onde tag é o nome que será utilizado no componente pai.
+
+- No componente pai quando invocar o componente filho podemos usar o elementro criado pelo ng content.
+
+componente filho, com seletor <app-div></app-div>, arquivo HTML:
+
+<p></p>
+<ng-content selector="conteudo"></ng-content>
+<p></p>
+
+componente pai, arquivo HTML:
+
+<app-div>
+  <conteudo></conteudo>
+</app-div>
+
+
+
+-----------------------------------------------------------
