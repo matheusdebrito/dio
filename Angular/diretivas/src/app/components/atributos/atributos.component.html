@@ -1,0 +1,10 @@
+<p [ngClass]="estilo">atributos works!</p>
+
+<h1 [ngStyle]="{'background': corFundo}">Curso Angular</h1>
+
+<h1>Lista de Compras</h1>
+<input type="text" [(ngModel)]="item" placeholder="Item para comprar">
+<button (click)="adicionarItem(item)">Adicionar</button>
+<ul>
+  <li *ngFor="let p of listaDeCompras">{{ p }}</li>
+</ul>

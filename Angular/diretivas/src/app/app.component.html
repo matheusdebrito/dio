@@ -1,0 +1,9 @@
+<app-atributos></app-atributos>
+
+<app-card *ngIf="true; else blocoSecreto"></app-card>
+
+<ng-template #blocoSecreto>
+  <p>bloco secreto</p>
+</ng-template>
+
+<router-outlet></router-outlet>
