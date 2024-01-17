@@ -1,0 +1,44 @@
+.card{
+  border: solid 1px black;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: white;
+  margin: 0 auto;
+}
+
+.card-stats{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card-stats-type{
+  color: white;
+  background-color: coral;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0px 3px;
+  border-radius: 5px;
+}
+
+.card-body{
+  background-color: #616161;
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
