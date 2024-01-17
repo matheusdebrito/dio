@@ -1,4 +1,4 @@
-- Para declarar rotas no site temos que editar o arquivo app-routing.modules 
+- Para declarar rotas no site, temos que editar o arquivo app-routing.modules 
 
 - Importamos as classes dos componentes.
 

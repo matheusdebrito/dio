@@ -1,0 +1,1 @@
+- Podemos navegar entre rotas com <li><a href="/portfolio">PORTFOLIO</a></li>, porém, a página seria sempre recarregada. Para evitar isso temos outra opção. <li><a [routerLink]="'portfolio'">PORTFOLIO</a></li> OBS: o parametro deve ser passo entre aspas duplas e aspas simples.
